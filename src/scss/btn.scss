@@ -1,0 +1,66 @@
+.btn {
+    display: block;
+    background: #44414E;
+    border: 1px solid #44414E;
+    &_search {
+        display: inline-block;
+        border-radius: 32px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 17px;
+        color: #C4C1CF;
+        padding: 14px 22px;
+    }
+    &:hover {
+        cursor: pointer;
+        background: #353240;
+        border-color: #353240;
+        color: #E9E6F2;
+        .btn__icon {
+            fill: #E9E6F2;
+        }
+    }
+    &:active {
+        cursor: pointer;
+        background: #120E20;
+        border-color: #FF005C;
+        color: #FF005C;
+        .btn__icon {
+            fill: #FF005C;
+        }
+    }
+    &_back {
+        position: fixed;
+        width: 64px;
+        height: 64px;
+        z-index: 1000;
+        background: #44414E;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 32px;
+        left: 32px;
+    }
+    &_search-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background: #84818E;
+        border-radius: 55px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    &__icon {
+        width: 15px;
+        fill: #C4C1CF;
+        &_search {
+            width: 24px;
+        }
+    }
+}

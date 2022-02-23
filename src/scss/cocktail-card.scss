@@ -1,0 +1,62 @@
+.cocktail-card {
+    width: 100%;
+    min-width: 256px;
+    max-width: 384px;
+    border-radius: 32px;
+    overflow: hidden;
+    margin: 14px 16px;
+    height: 425px;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        padding: 24px 32px;
+        height: 100%;
+        margin-top: -425px;
+        flex-wrap: wrap;
+        z-index: 10;
+        position: relative;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, rgba(14, 13, 19, 0.9) 89.58%);
+    }
+    &__alcohol-sticker {
+        width: 80px;
+        height: 80px;
+        background: #0E0D13;
+        border-radius: 24px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #C4C1CF;
+        margin-top: -6px;
+        margin-left: -14px;
+        text-align: right;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__alcohol-present {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+}
+@media screen and (min-width: 608px) {
+    .cocktail-card {
+        width: calc(50% - 32px);
+    }
+}
+@media screen and (min-width: 898px) {
+    .cocktail-card {
+        width: calc(100%/3 - 32px);
+    }
+}
+@media screen and (min-width: 1280px) {
+    .cocktail-card {
+        width: calc(25% - 32px);
+        max-width: 336px;
+    }
+}

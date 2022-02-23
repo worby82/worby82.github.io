@@ -1,0 +1,36 @@
+.tag {
+    display: flex;
+    overflow: auto;
+    list-style: none;
+    margin: auto -32px -20px;
+    padding: 0 32px;
+    scrollbar-width: none;
+    position: relative;
+    z-index: 1010;
+    &__item {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #C4C1CF;
+        padding: 8px 16px 9px;
+        border-radius: 32px;
+        border: 1px solid transparent;
+        transition: border-color 0.3s;
+        &_active {
+            border-color: #C4C1CF;
+            color: #FFFFFF;
+        }
+        &:hover {
+            cursor: pointer;
+            border-color: #C4C1CF;
+            transition: border-color 0.3s;
+        }
+    }
+    &::-webkit-scrollbar {
+        width: 0;
+        padding: 0;
+        height: 0;
+    }
+}

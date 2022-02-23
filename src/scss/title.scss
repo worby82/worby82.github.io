@@ -1,0 +1,22 @@
+.title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    &_cocktail {
+        letter-spacing: 0.07em;
+        margin-top: auto;
+    }
+    &_description {
+        font-size: 18px;
+        line-height: 21px;
+        margin: 32px 0 8px;
+    }
+    &_no-result {
+        font-weight: normal;
+        letter-spacing: 0.07em;
+        text-align: center;
+    }
+}
