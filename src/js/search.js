@@ -58,6 +58,8 @@ function makeCocktailCard(nameValue,shortDesciption,alcoholPresent,imageWebp,ima
     let cocktailImage = document.createElement('img');
     cocktailImage.setAttribute('src', imageJpg);
     cocktailImage.setAttribute('alt', nameValue);
+    cocktailImage.setAttribute('width', 'auto');
+    cocktailImage.setAttribute('height', 'auto');
     cocktailPicture.append(cocktailImageSource,cocktailImage);
     let cocktailLink = document.createElement('a');
     cocktailLink.classList.add('cocktail-card__inner');
