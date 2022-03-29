@@ -41,7 +41,7 @@ function search() {
         };
     };
     if (cocktailCount == 0) {
-        cocktailCard = makeCocktailCard('Пусто', 'Попробуйте изменить запрос', 'Ничего не найдено', '/app/images/no-result.webp', '/app/images/no-result.jpg', '#')
+        cocktailCard = makeCocktailCard('Пусто', 'Попробуйте изменить запрос', 'Ничего не найдено', '../images/no-result.webp', '../images/no-result.jpg', '#')
         cocktailList.append(cocktailCard);
     };
     document.querySelector('.main>.container').append(cocktailList);
