@@ -1,7 +1,7 @@
 
 let data;
 var request = new XMLHttpRequest();
-request.open('GET', '/app/js/cocktail.json');
+request.open('GET', '../js/cocktail.json');
 request.onloadend = function() {
     data = JSON.parse(request.responseText);
 }

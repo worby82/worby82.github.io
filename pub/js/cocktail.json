@@ -3,32 +3,32 @@
     "name": "Blackberry",
     "shortDesciption": "Освежающий напиток",
     "alcoholPresent": "30%",
-    "webpPrev" : "/app/images/blackberry.webp",
-    "jpgPrev" : "/app/images/blackberry.jpg",
-    "link" : "/app/blackberry/"
+    "webpPrev" : "../images/blackberry.webp",
+    "jpgPrev" : "../images/blackberry.jpg",
+    "link" : "../blackberry/"
   },
   {
     "name": "black",
     "shortDesciption": "Для проверки",
     "alcoholPresent": "30%",
-    "webpPrev" : "/app/images/blackberry.webp",
-    "jpgPrev" : "/app/images/blackberry.jpg",
+    "webpPrev" : "../images/blackberry.webp",
+    "jpgPrev" : "../images/blackberry.jpg",
     "link" : "#"
   },
   {
     "name": "Мохито",
     "shortDesciption": "Освежающий напиток",
     "alcoholPresent": "40%",
-    "webpPrev" : "/app/images/mohito.webp",
-    "jpgPrev" : "/app/images/mohito.jpg",
+    "webpPrev" : "../images/mohito.webp",
+    "jpgPrev" : "../images/mohito.jpg",
     "link" : "#"
   },
   {
     "name": "моголь",
     "shortDesciption": "Для проверки",
     "alcoholPresent": "40%",
-    "webpPrev" : "/app/images/mohito.webp",
-    "jpgPrev" : "/app/images/mohito.jpg",
+    "webpPrev" : "../images/mohito.webp",
+    "jpgPrev" : "../images/mohito.jpg",
     "link" : "#"
   }
 ]
