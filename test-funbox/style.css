@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Exo2.0';
+    font-display: swap;
+    src:url("./fonts/Exo2.0-Thin.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Trebuchet MS';
+    font-display: swap;
+    src:url("./fonts/trebuchetms.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    font-size: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+html {
+    background: url(./img/Pattern.png);
+}
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-05) 49.88%, rgba(0, 0, 0, 0.5) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 100%;
+}
+h1 {
+    font-family: 'Exo2.0';
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px #000000;
+}
+.product-list {
+    list-style: none;
+    padding-top: 24px;
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+}
+.product-item {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.product-item__card {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.product-item__inner {
+    background: #FFF;
+    position: relative;
+    border: 4px solid #1698D9;
+    border-top: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.product-item__tagline {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+    padding-left: 6px;
+    height: 45px;
+    width: calc(100% - 45px);
+    background: #fff;
+    padding-top: 21px;
+    margin-left: 45px;
+    border: 4px solid #1698D9;
+    border-bottom: none;
+    border-left: none;
+    border-top-right-radius: 12px;
+    position: relative;
+}
+.product-item__tagline::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 45px solid #1698D9;
+    border-left: 45px solid transparent;
+    position: absolute;
+    left: -45px;
+    top: -4px;
+}
+.product-item__tagline::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 41px solid #fff;
+    border-left: 41px solid transparent;
+    position: absolute;
+    left: -41px;
+    top: 0px;
+}
+.product-item__name {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    padding-left: 48px;
+}
+.product-item__taste {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-left: 51px;
+    padding-bottom: 15px;
+}
+.product-item__features {
+    list-style: none;
+    padding-left: 51px;
+    margin-bottom: auto;
+    padding-bottom: 17px;
+}
+.product-item__features-item {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+.product-item__wt {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: #1698D9;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px;
+}
+.product-item__wt-number {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+.product-item__availability {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 14px;
+    min-height: 29px;
+}
+.product-item__availability-link {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #1698D9;
+    border-bottom: 1px dashed #1698D9;
+}
+/* default hover */
+.product-item:hover .product-item__card {
+    cursor: pointer;
+}
+.product-item:hover .product-item__inner {
+    border-color: #2EA8E6;
+}
+.product-item:hover .product-item__tagline {
+    border-color: #2EA8E6;
+}
+.product-item:hover .product-item__tagline::before {
+    border-bottom-color: #2EA8E6;
+}
+.product-item:hover .product-item__wt {
+    background: #2EA8E6;
+}
+.product-item:hover .product-item__availability-link {
+    color: #2EA8E6;
+}
+
+/* disable */
+.product-item--disable:hover .product-item__card {
+    cursor: default;
+}
+.product-item--disable .product-item__inner,.product-item--disable:hover .product-item__inner {
+    border-color: #B3B3B3;
+    background: #F2F2F2;
+}
+.product-item--disable .product-item__tagline,.product-item--disable:hover .product-item__tagline {
+    border-color: #B3B3B3;
+    background: #F2F2F2;
+    color: #B3B3B3;
+}
+.product-item--disable .product-item__tagline::before,.product-item--disable:hover .product-item__tagline::before {
+    border-bottom-color: #B3B3B3;
+}
+.product-item--disable .product-item__tagline::after,.product-item--disable:hover .product-item__tagline::after {
+    border-bottom-color: #F2F2F2;
+}
+.product-item--disable .product-item__wt,.product-item--disable:hover  .product-item__wt {
+    background: #B3B3B3;
+}
+.product-item--disable .product-item__availability {
+    color: #FFFF66;
+}
+.product-item--disable .product-item__image {
+    opacity: 0.5;
+}
+.product-item--disable .product-item__name {
+    color: #B3B3B3;
+}
+.product-item--disable .product-item__taste {
+    color: #B3B3B3;
+}
+.product-item--disable .product-item__features-item {
+    color: #B3B3B3;
+}
+
+/* selected */
+/* .product-item--selected .product-item__card {
+    cursor: pointer;
+} */
+.product-item--selected .product-item__inner, .product-item--selected.product-item--nohover:hover .product-item__inner {
+    border-color: #D91667;
+}
+.product-item--selected .product-item__tagline, .product-item--selected.product-item--nohover:hover .product-item__tagline {
+    border-color: #D91667;
+}
+.product-item--selected .product-item__tagline::before, .product-item--selected.product-item--nohover:hover .product-item__tagline::before {
+    border-bottom-color: #D91667;
+}
+.product-item--selected .product-item__wt, .product-item--selected.product-item--nohover:hover .product-item__wt {
+    background: #D91667;
+}
+/* selected hover */
+.product-item__tagline--selected-hover {
+    color: #E62E7A;
+}
+.product-item--selected:hover .product-item__inner {
+    border-color: #E52E7A;
+}
+.product-item--selected:hover .product-item__tagline {
+    border-color: #E52E7A;
+}
+.product-item--selected:hover .product-item__tagline::before {
+    border-bottom-color: #E52E7A;
+}
+.product-item--selected:hover .product-item__wt {
+    background: #E52E7A;
+}
