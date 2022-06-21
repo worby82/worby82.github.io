@@ -59,6 +59,7 @@ h1 {
     display: flex;
     height: 100%;
     flex-direction: column;
+    position: relative;
 }
 .product-item__inner {
     background: #FFF;
@@ -89,27 +90,27 @@ h1 {
     border-bottom: none;
     border-left: none;
     border-top-right-radius: 12px;
-    position: relative;
+    /* position: relative; */
 }
 .product-item__tagline::before {
     content: '';
     width: 0;
     height: 0;
-    border-bottom: 45px solid #1698D9;
+    border-bottom: 46px solid #1698D9;
     border-left: 45px solid transparent;
     position: absolute;
-    left: -45px;
-    top: -4px;
+    left: 0px;
+    top: 0px;
 }
 .product-item__tagline::after {
     content: '';
     width: 0;
     height: 0;
-    border-bottom: 41px solid #fff;
+    border-bottom: 40px solid #fff;
     border-left: 41px solid transparent;
     position: absolute;
-    left: -41px;
-    top: 0px;
+    left: 4px;
+    top: 4px;
 }
 .product-item__name {
     font-family: 'Trebuchet MS';
