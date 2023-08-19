@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mediasoft-test-task-market/static/css/main.ffaefb8c.css",
+    "main.js": "/mediasoft-test-task-market/static/js/main.3ae2abd1.js",
+    "static/media/credit-card-background.jpg": "/mediasoft-test-task-market/static/media/credit-card-background.df30363e18221486196a.jpg",
+    "static/media/shopping-cart.png": "/mediasoft-test-task-market/static/media/shopping-cart.d6d238baa05b78193ce0.png",
+    "static/media/logo.png": "/mediasoft-test-task-market/static/media/logo.903659b5db164c25b862.png",
+    "static/media/trash.png": "/mediasoft-test-task-market/static/media/trash.ae0a88307236d64daf9a.png",
+    "static/media/sprite.svg": "/mediasoft-test-task-market/static/media/sprite.e3fd37d9d72fbf2ca5c913cd594365e7.svg",
+    "index.html": "/mediasoft-test-task-market/index.html",
+    "main.ffaefb8c.css.map": "/mediasoft-test-task-market/static/css/main.ffaefb8c.css.map",
+    "main.3ae2abd1.js.map": "/mediasoft-test-task-market/static/js/main.3ae2abd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffaefb8c.css",
+    "static/js/main.3ae2abd1.js"
+  ]
+}
