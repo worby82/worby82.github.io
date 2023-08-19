@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ffaefb8c.css",
-    "main.js": "/static/js/main.76cacb49.js",
+    "main.js": "/static/js/main.44bad947.js",
     "static/media/credit-card-background.jpg": "/static/media/credit-card-background.df30363e18221486196a.jpg",
     "static/media/shopping-cart.png": "/static/media/shopping-cart.d6d238baa05b78193ce0.png",
     "static/media/logo.png": "/static/media/logo.903659b5db164c25b862.png",
@@ -9,10 +9,10 @@
     "static/media/sprite.svg": "/static/media/sprite.e3fd37d9d72fbf2ca5c913cd594365e7.svg",
     "index.html": "/index.html",
     "main.ffaefb8c.css.map": "/static/css/main.ffaefb8c.css.map",
-    "main.76cacb49.js.map": "/static/js/main.76cacb49.js.map"
+    "main.44bad947.js.map": "/static/js/main.44bad947.js.map"
   },
   "entrypoints": [
     "static/css/main.ffaefb8c.css",
-    "static/js/main.76cacb49.js"
+    "static/js/main.44bad947.js"
   ]
 }
