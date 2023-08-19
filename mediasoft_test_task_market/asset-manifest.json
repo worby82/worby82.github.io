@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mediasoft_test_task_market/static/css/main.ffaefb8c.css",
-    "main.js": "/mediasoft_test_task_market/static/js/main.6371861e.js",
+    "main.js": "/mediasoft_test_task_market/static/js/main.ab223171.js",
     "static/media/credit-card-background.jpg": "/mediasoft_test_task_market/static/media/credit-card-background.df30363e18221486196a.jpg",
     "static/media/shopping-cart.png": "/mediasoft_test_task_market/static/media/shopping-cart.d6d238baa05b78193ce0.png",
     "static/media/logo.png": "/mediasoft_test_task_market/static/media/logo.903659b5db164c25b862.png",
@@ -9,10 +9,10 @@
     "static/media/sprite.svg": "/mediasoft_test_task_market/static/media/sprite.e3fd37d9d72fbf2ca5c913cd594365e7.svg",
     "index.html": "/mediasoft_test_task_market/index.html",
     "main.ffaefb8c.css.map": "/mediasoft_test_task_market/static/css/main.ffaefb8c.css.map",
-    "main.6371861e.js.map": "/mediasoft_test_task_market/static/js/main.6371861e.js.map"
+    "main.ab223171.js.map": "/mediasoft_test_task_market/static/js/main.ab223171.js.map"
   },
   "entrypoints": [
     "static/css/main.ffaefb8c.css",
-    "static/js/main.6371861e.js"
+    "static/js/main.ab223171.js"
   ]
 }
