@@ -8,9 +8,9 @@
       "currency": "USD",
       "value": 27.12
     },
-    "image": "/images/1.png",
+    "image": "/mediasoft_test_task_market/images/1.png",
     "brand": 9,
-    "raiting": 3.5
+    "rating": 3.5
   },
   {
     "type": "configurable",
@@ -21,7 +21,7 @@
       "currency": "USD",
       "value": 54.21
     },
-    "image": "/images/conf/default.png",
+    "image": "/mediasoft_test_task_market/images/conf/default.png",
     "configurable_options": [
       {
         "attribute_id": 93,
@@ -80,7 +80,7 @@
         "product": {
           "id": 2001,
           "sku": "c1-red-m",
-          "image": "/images/conf/red.png"
+          "image": "/mediasoft_test_task_market/images/conf/red.png"
         }
       },
       {
@@ -97,7 +97,7 @@
         "product": {
           "id": 2002,
           "sku": "c1-red-l",
-          "image": "/images/conf/red.png"
+          "image": "/mediasoft_test_task_market/images/conf/red.png"
         }
       },
       {
@@ -114,7 +114,7 @@
         "product": {
           "id": 2003,
           "sku": "c1-blue-m",
-          "image": "/images/conf/blue.png"
+          "image": "/mediasoft_test_task_market/images/conf/blue.png"
         }
       },
       {
@@ -131,12 +131,12 @@
         "product": {
           "id": 2004,
           "sku": "c1-black-l",
-          "image": "/images/conf/black.png"
+          "image": "/mediasoft_test_task_market/images/conf/black.png"
         }
       }
     ],
     "brand": 1,
-    "raiting": 1.0
+    "rating": 1.0
   },
   {
     "type": "simple",
@@ -147,9 +147,9 @@
       "currency": "USD",
       "value": 36.87
     },
-    "image": "/images/2.png",
+    "image": "/mediasoft_test_task_market/images/2.png",
     "brand": 8,
-    "raiting": 3.7
+    "rating": 3.7
   },
   {
     "type": "simple",
@@ -160,9 +160,9 @@
       "currency": "USD",
       "value": 28.91
     },
-    "image": "/images/3.png",
+    "image": "/mediasoft_test_task_market/images/3.png",
     "brand": 2,
-    "raiting": 4.8
+    "rating": 4.8
   },
   {
     "type": "simple",
@@ -173,9 +173,9 @@
       "currency": "USD",
       "value": 41.23
     },
-    "image": "/images/4.png",
+    "image": "/mediasoft_test_task_market/images/4.png",
     "brand": 7,
-    "raiting": 3.1
+    "rating": 3.1
   },
   {
     "type": "simple",
@@ -186,9 +186,9 @@
       "currency": "USD",
       "value": 88.00
     },
-    "image": "/images/5.png",
+    "image": "/mediasoft_test_task_market/images/5.png",
     "brand": 3,
-    "raiting": 3.6
+    "rating": 3.6
   },
   {
     "type": "simple",
@@ -199,9 +199,9 @@
       "currency": "USD",
       "value": 127.41
     },
-    "image": "/images/6.png",
+    "image": "/mediasoft_test_task_market/images/6.png",
     "brand": 6,
-    "raiting": 5.0
+    "rating": 5.0
   },
   {
     "type": "configurable",
@@ -212,7 +212,7 @@
       "currency": "USD",
       "value": 63.27
     },
-    "image": "/images/conf/default.png",
+    "image": "/mediasoft_test_task_market/images/conf/default.png",
     "configurable_options": [
       {
         "attribute_id": 93,
@@ -271,7 +271,7 @@
         "product": {
           "id": 8001,
           "sku": "c2-red-m",
-          "image": "/images/conf/red.png"
+          "image": "/mediasoft_test_task_market/images/conf/red.png"
         }
       },
       {
@@ -288,7 +288,7 @@
         "product": {
           "id": 8002,
           "sku": "c2-red-l",
-          "image": "/images/conf/red.png"
+          "image": "/mediasoft_test_task_market/images/conf/red.png"
         }
       },
       {
@@ -305,7 +305,7 @@
         "product": {
           "id": 8003,
           "sku": "c2-blue-m",
-          "image": "/images/conf/blue.png"
+          "image": "/mediasoft_test_task_market/images/conf/blue.png"
         }
       },
       {
@@ -322,12 +322,12 @@
         "product": {
           "id": 8004,
           "sku": "c2-black-l",
-          "image": "/images/conf/black.png"
+          "image": "/mediasoft_test_task_market/images/conf/black.png"
         }
       }
     ],
     "brand": 4,
-    "raiting": 4.3
+    "rating": 4.3
   },
   {
     "type": "simple",
@@ -338,9 +338,9 @@
       "currency": "USD",
       "value": 123.40
     },
-    "image": "/images/7.png",
+    "image": "/mediasoft_test_task_market/images/7.png",
     "brand": 5,
-    "raiting": 2.7
+    "rating": 2.7
   },
   {
     "type": "configurable",
@@ -351,7 +351,7 @@
       "currency": "USD",
       "value": 68.273
     },
-    "image": "/images/conf/default.png",
+    "image": "/mediasoft_test_task_market/images/conf/default.png",
     "configurable_options": [
       {
         "attribute_id": 93,
@@ -410,7 +410,7 @@
         "product": {
           "id": 10001,
           "sku": "c10-red-m",
-          "image": "/images/conf/red.png"
+          "image": "/mediasoft_test_task_market/images/conf/red.png"
         }
       },
       {
@@ -427,7 +427,7 @@
         "product": {
           "id": 10002,
           "sku": "c10-red-l",
-          "image": "/images/conf/red.png"
+          "image": "/mediasoft_test_task_market/images/conf/red.png"
         }
       },
       {
@@ -444,7 +444,7 @@
         "product": {
           "id": 10003,
           "sku": "c10-blue-m",
-          "image": "/images/conf/blue.png"
+          "image": "/mediasoft_test_task_market/images/conf/blue.png"
         }
       },
       {
@@ -461,12 +461,12 @@
         "product": {
           "id": 10004,
           "sku": "c10-black-l",
-          "image": "/images/conf/black.png"
+          "image": "/mediasoft_test_task_market/images/conf/black.png"
         }
       }
     ],
     "brand": 3,
-    "raiting": 4.6
+    "rating": 4.6
   },
   {
     "type": "simple",
@@ -477,9 +477,9 @@
       "currency": "USD",
       "value": 92.32
     },
-    "image": "/images/8.png",
+    "image": "/mediasoft_test_task_market/images/8.png",
     "brand": 1,
-    "raiting": 3.9
+    "rating": 3.9
   },
   {
     "type": "simple",
@@ -490,8 +490,8 @@
       "currency": "USD",
       "value": 53.40
     },
-    "image": "/images/9.png",
+    "image": "/mediasoft_test_task_market/images/9.png",
     "brand": 2,
-    "raiting": 4.1
+    "rating": 4.1
   }
 ]
